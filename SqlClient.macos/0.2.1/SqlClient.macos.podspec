@@ -29,8 +29,9 @@ TODO: Add long description of the pod here.
 	 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
 	 s.swift_version = '5.0'
-	 s.platform = :osx
-	 s.osx.deployment_target = "12.3"
+         s.platforms = { :ios => "9.0", :osx => "12.3" }
+	 #s.platform = :osx
+	 #s.osx.deployment_target = "12.3"
  #  s.osx.deployment_target = "10.10"
 
 	 s.source_files = 'SqlClient.macos/Classes/**/*', 'SqlClient.macos/src/**/*', 'SqlClient.macos/lib/**/*'
