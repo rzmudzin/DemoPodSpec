@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 
-  s.vendored_libraries = 'SqlClient.ios/lib/libsybdb.a'
+  s.vendored_libraries = 'SqlClient.ios/lib/libsybdb_ios.a'
   s.libraries = 'iconv'
   s.requires_arc = true
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
